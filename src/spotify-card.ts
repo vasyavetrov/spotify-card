@@ -1,14 +1,5 @@
-import {
-  LitElement,
-  html,
-  customElement,
-  property,
-  internalProperty,
-  CSSResult,
-  TemplateResult,
-  PropertyValues,
-  css,
-} from 'lit-element';
+import { LitElement, html, css, PropertyValues, TemplateResult, CSSResultGroup } from 'lit';
+import { customElement, property, state } from 'lit/decorators.js';
 
 import { HomeAssistant, LovelaceCardEditor } from 'custom-card-helpers';
 
